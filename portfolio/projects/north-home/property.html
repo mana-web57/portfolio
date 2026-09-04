@@ -1,0 +1,40 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>物件一覧 | NORTH HOME</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet"><link rel="stylesheet" href="css/style.css"><script defer src="js/script.js"></script></head><body>
+
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="NORTH HOME トップ">
+    <span class="brand-mark">⌂</span>
+    <span><strong>NORTH HOME</strong><small>Real Estate</small></span>
+  </a>
+  <button class="menu-toggle" type="button" aria-label="メニューを開く" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+  <nav class="site-nav" aria-label="メインナビゲーション">
+    <a href="index.html">HOME</a>
+    <a href="property.html">PROPERTY</a>
+    <a href="about.html">ABOUT</a>
+    <a href="staff.html">STAFF</a>
+    <a href="contact.html">CONTACT</a>
+    <a class="nav-cta" href="contact.html">来店予約</a>
+  </nav>
+</header>
+<main><section class="page-hero page-hero-image property-page-hero"><div class="page-hero-shade"></div><div class="page-hero-content"><p class="eyebrow">PROPERTY</p><h1>物件を探す</h1><p>函館・北斗・七飯の暮らしに合う住まいをご紹介します。</p></div></section>
+<section class="property-layout section"><aside class="filter-panel reveal"><h2>絞り込み検索</h2><label>エリア<select id="filterArea"><option value="">すべて</option><option>函館市</option><option>北斗市</option><option>七飯町</option></select></label><label>価格<select id="filterPrice"><option value="">すべて</option><option value="3000">3,000万円以下</option><option value="4000">4,000万円以下</option><option value="5000">5,000万円以下</option></select></label><label>間取り<select id="filterLayout"><option value="">すべて</option><option>2LDK</option><option>3LDK</option><option>4LDK</option></select></label><button class="button button-dark" id="filterBtn" type="button">検索する</button><button class="filter-reset" id="resetBtn" type="button">条件をリセット</button></aside><div><div class="result-head"><p><strong id="resultCount">8</strong>件の物件</p><select><option>おすすめ順</option><option>価格が安い順</option></select></div><div class="property-grid property-list"><article class="property-card property-item reveal" data-area="函館市" data-price="3680" data-layout="3LDK"><img src="images/property-1.jpg" alt="末広町の海を望む家"><div><span class="badge">NEW</span><h3>3,680万円</h3><p>末広町の海を望む家</p><small>函館市 / 3LDK</small></div></article><article class="property-card property-item reveal" data-area="函館市" data-price="2980" data-layout="4LDK"><img src="images/property-2.jpg" alt="湯川町の庭付き住宅"><div><span class="badge">NEW</span><h3>2,980万円</h3><p>湯川町の庭付き住宅</p><small>函館市 / 4LDK</small></div></article><article class="property-card property-item reveal" data-area="北斗市" data-price="4580" data-layout="2LDK"><img src="images/property-3.jpg" alt="大きな窓の平屋住宅"><div><span class="badge">NEW</span><h3>4,580万円</h3><p>大きな窓の平屋住宅</p><small>北斗市 / 2LDK</small></div></article><article class="property-card property-item reveal" data-area="七飯町" data-price="2480" data-layout="3LDK"><img src="images/property-4.jpg" alt="自然に囲まれた住まい"><div><span class="badge">SALE</span><h3>2,480万円</h3><p>自然に囲まれた住まい</p><small>七飯町 / 3LDK</small></div></article><article class="property-card property-item reveal" data-area="函館市" data-price="3180" data-layout="3LDK"><img src="images/property-5.jpg" alt="五稜郭エリアの新築"><div><span class="badge">SALE</span><h3>3,180万円</h3><p>五稜郭エリアの新築</p><small>函館市 / 3LDK</small></div></article><article class="property-card property-item reveal" data-area="北斗市" data-price="2760" data-layout="4LDK"><img src="images/property-6.jpg" alt="家族で過ごす南向きの家"><div><span class="badge">SALE</span><h3>2,760万円</h3><p>家族で過ごす南向きの家</p><small>北斗市 / 4LDK</small></div></article><article class="property-card property-item reveal" data-area="七飯町" data-price="3950" data-layout="3LDK"><img src="images/property-7.jpg" alt="大沼を望むデザイン住宅"><div><span class="badge">SALE</span><h3>3,950万円</h3><p>大沼を望むデザイン住宅</p><small>七飯町 / 3LDK</small></div></article><article class="property-card property-item reveal" data-area="函館市" data-price="4260" data-layout="2LDK"><img src="images/property-8.jpg" alt="元町のリノベーション住宅"><div><span class="badge">SALE</span><h3>4,260万円</h3><p>元町のリノベーション住宅</p><small>函館市 / 2LDK</small></div></article></div><p class="no-result" id="noResult">条件に合う物件がありません。</p></div></section></main>
+<footer class="site-footer">
+  <div>
+    <a class="brand footer-brand" href="index.html">
+      <span class="brand-mark">⌂</span>
+      <span><strong>NORTH HOME</strong><small>Real Estate</small></span>
+    </a>
+    <p>北海道・函館で、理想の暮らしを。</p>
+  </div>
+  <div class="footer-links">
+    <a href="property.html">物件を探す</a>
+    <a href="about.html">会社案内</a>
+    <a href="staff.html">スタッフ</a>
+    <a href="contact.html">お問い合わせ</a>
+  </div>
+  <p class="copyright">© 2026 NORTH HOME. Portfolio Project.</p>
+</footer>
+<button class="back-to-top" type="button" aria-label="ページ上部へ">↑</button>
+</body></html>
